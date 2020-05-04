@@ -1,0 +1,82 @@
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: teal;
+    position: fixed;
+  }
+  body{
+    background-color: teal;
+    color: white;
+    font-family: Space Mono;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: teal;
+    color: white;
+  }
+  h1{
+    font-size: 35px;
+  }
+  p{
+   font-size:25px; 
+  }
+  #welcome-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+  #projects{
+    height: 500px;
+    text-align: center;
+  }
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .profile-link{
+    display: flex;
+  }
+  
+  
+  Resources
